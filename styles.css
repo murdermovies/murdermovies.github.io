@@ -7,8 +7,9 @@
 
 .allindex {
   margin: 0;
-  display: grid;
-  place-items: center; /* Centers both horizontally and vertically */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically (requires a container height) */
   min-height: 100vh;   /* Ensures the body takes up the full screen height */
 }
 
