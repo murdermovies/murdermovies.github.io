@@ -72,6 +72,7 @@ div p {
 }
 
 .header {
+  text-align: center;
   color: rgb(255, 0, 0);
   font: 3rem "Times New Roman", serif;
   text-decoration: none;
