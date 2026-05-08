@@ -1,0 +1,82 @@
+.top {
+  display:flex;
+  height: 100px;
+}
+.logocontainer {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically (requires a container height) */
+  /*height: 300px;           /* Optional: specific container height */
+}
+
+.text {
+  text-align: center;
+}
+
+div p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between columns */
+  }
+
+.left-col {
+    flex: 1;
+    text-align: right; /* Pushes text to the right */
+  }
+
+  .right-col {
+    flex: 1;
+    text-align: left; /* Pushes text to the left */
+  }
+
+.logo {
+  width: 300px;  /* Resizes the image to be smaller */
+  height: auto;  /* Maintains original aspect ratio */
+}
+
+.links {
+  color: rgb(255, 0, 0);
+  font: 18px/1.5 "Helvetica", serif;
+  text-decoration: none;
+}
+
+.blogtext {
+  color: rgb(255, 0, 0);
+  font: 14px/1.5 "Helvetica", serif;
+  text-decoration: none;
+}
+
+.linksmall {
+  color: rgb(255, 0, 0);
+  font: 10px/1.5 "Helvetica", serif;
+  font-style: italic;
+
+}
+
+.italic {
+  
+  color: rgb(255, 0, 0);
+  font: 14px/1.5 "Helvetica", serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.note {
+  
+  color: rgb(255, 0, 0);
+  font: 10px/1.5 "Helvetica", serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.header {
+  color: rgb(255, 0, 0);
+  font: 30px/1.5 "Times New Roman", serif;
+  text-decoration: none;
+  margin: 20px;
+}
