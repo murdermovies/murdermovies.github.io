@@ -1,7 +1,7 @@
 .logocontainer {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  height: 4rem;           /* Optional: specific container height */
+  /*height: 4rem;           /* Optional: specific container height */
 }
 
 
@@ -32,7 +32,7 @@ div p {
   }
 
 .logo {
-  width: 19rem;  /* Resizes the image to be smaller */
+  width: 40rem;  /* Resizes the image to be smaller */
   height: auto;  /* Maintains original aspect ratio */
 }
 
