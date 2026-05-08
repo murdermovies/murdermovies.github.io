@@ -1,7 +1,7 @@
 .logocontainer {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  /*height: 300px;           /* Optional: specific container height */
+  height: 4rem;           /* Optional: specific container height */
 }
 
 
