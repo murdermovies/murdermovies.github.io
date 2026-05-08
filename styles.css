@@ -25,6 +25,7 @@ div p {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem; /* Space between columns */
   }
 
