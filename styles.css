@@ -5,6 +5,12 @@
   /*height: 300px;           /* Optional: specific container height */
 }
 
+.allindex {
+  display: flex; 
+  justify-content: center; /* Centers horizontally */
+  align-items: center;   
+}
+
 .text {
   text-align: center;
 }
