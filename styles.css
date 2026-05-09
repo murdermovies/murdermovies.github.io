@@ -39,7 +39,8 @@ div p {
 
 .links {
   color: rgb(255, 0, 0);
-  font: 2rem "Helvetica", serif;
+  font: "Helvetica", serif;
+  font-size: clamp(2rem, 8vw, 10rem);
   text-decoration: none;
 }
 
