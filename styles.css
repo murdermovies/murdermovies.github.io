@@ -15,7 +15,6 @@ div p {
 }
 
 .container {
-  width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +39,7 @@ div p {
 
 .links {
   color: rgb(255, 0, 0);
-  font: 2rem "Helvetica", serif;
+  font: 60% "Helvetica", serif;
   text-decoration: none;
 }
 
