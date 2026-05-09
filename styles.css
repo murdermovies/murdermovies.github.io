@@ -17,6 +17,15 @@ div p {
     text-align: center;
   }
 
+.blogcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between columns */
+    text-align: center;
+    margin: 1rem;
+  }
+
 .left-col {
     flex: 1;
     text-align: right; 
@@ -28,7 +37,7 @@ div p {
   }
   
 .logo {
-  max-width: 70%;
+  width: 100vw;
   height: auto;
   display: block; /* Removes unwanted space below the image */
 }
@@ -86,51 +95,55 @@ div p {
 }
 
   .text {
-    font-size: 4vw; 
+    font-size: 1.5rem; 
   }
 
   .header {
-    font-size: 8vw; 
+    font-size: 3rem; 
   }
 
   .frontpagelinks {
-    font-size: 6vw; 
+    font-size: 3.5rem; 
   }
 
   .italic {
-    font-size: 3vw; 
+    font-size: 1rem; 
   }
 
   .notes {
-    font-size: 1vw; 
+    font-size: 1rem; 
   }
 
   .blogtext {
-    font-size: 3vw;
+    font-size: 1rem;
+    
   }
 
-@media (max-width: 767) {
+@media (max-width: 1000) {
+  .logo {
+    width: 150vw;
+  }
   .text {
-    font-size: 5vw; 
+    font-size: 2rem; 
   }
 
   .header {
-    font-size: 10vw; 
+    font-size: 4rem; 
   }
 
   .frontpagelinks {
-    font-size: 1px; 
+    font-size: 3rem; 
   }
 
   .italic {
-    font-size: 3vw; 
+    font-size: 2rem; 
   }
 
   .notes {
-    font-size: 1vw; 
+    font-size: 2rem; 
   }
 
   .blogtext {
-    font-size: 3vw;
+    font-size: 3rem;
   }
 }
