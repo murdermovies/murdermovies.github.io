@@ -33,12 +33,6 @@ div p {
   display: block; /* Removes unwanted space below the image */
 }
 
-@media only screen and (max-width: 767px) {
-    logo {
-        width:100%;
-    }
-}
-
 .header {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
@@ -50,9 +44,15 @@ div p {
 .text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(1rem, 3vw, 6rem);
+  font-size: 24px;
   text-decoration: none;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 10vw; 
+  }
 }
 
 .frontpagelinks {
