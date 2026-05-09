@@ -47,7 +47,7 @@ div p {
   text-decoration: none;
   text-align: center;
 }
-
+/*
 @media (max-width: 768px) {
   .text {
     font-size: 10vw; 
@@ -73,7 +73,7 @@ div p {
     font-size: 4vw;
   }
 }
-
+*/
 @media (max-width: 1920px) {
   .text {
     font-size: 3vw; 
