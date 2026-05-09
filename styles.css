@@ -36,7 +36,7 @@ div p {
 .header {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 24px
+  font-size: 30px
   text-decoration: none;
   text-align: center;
 }
@@ -78,7 +78,7 @@ div p {
 .frontpagelinks {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 24px;
+  font-size: 40px;
   text-decoration: none;
   text-align: center;
 }
