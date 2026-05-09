@@ -80,7 +80,7 @@ div p {
   text-align: center;
   color: rgb(255, 0, 0);
   font: "Times New Roman", serif;
-  font-size: clamp(3ren, 8vw, 12rem);
+  font-size: clamp(5rem, 10vw, 12rem);
   text-decoration: none;
-   margin: 1rem;
+  margin: 1rem;
 }
