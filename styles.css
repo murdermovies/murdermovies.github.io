@@ -32,8 +32,9 @@ div p {
   }
 
 .logo {
-  width: 40rem;  /* Resizes the image to be smaller */
-  height: auto;  /* Maintains original aspect ratio */
+  max-width: 80%;
+  height: auto;
+  display: block; /* Removes unwanted space below the image */
 }
 
 .links {
