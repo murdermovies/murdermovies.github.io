@@ -58,8 +58,9 @@ div p {
 
 }
 
-.italic {
-  
+@media (max-width: 768px) {
+
+.italic {  
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   font-size: clamp(1rem, 5vw, 7rem);
@@ -83,4 +84,6 @@ div p {
   font-size: clamp(3rem, 8vw, 12rem);
   text-decoration: none;
   margin: 1rem;
+}
+
 }
