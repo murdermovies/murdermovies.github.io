@@ -50,10 +50,19 @@ div p {
 .text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
+  font-size: clamp(1rem, 3vw, 6rem);
+  text-decoration: none;
+  text-align: center;
+}
+
+.frontpagelinks {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
   font-size: clamp(2rem, 6vw, 8rem);
   text-decoration: none;
   text-align: center;
 }
+
 
 .italic {
   color: rgb(255, 0, 0);
