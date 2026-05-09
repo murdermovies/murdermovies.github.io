@@ -36,7 +36,7 @@ div p {
   height: auto;
   display: block; /* Removes unwanted space below the image */
 }
-
+/*
 .links {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
@@ -83,3 +83,4 @@ div p {
   text-decoration: none;
   margin: 1rem;
 }
+*/
