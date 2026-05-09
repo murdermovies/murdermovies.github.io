@@ -72,6 +72,10 @@ div p {
   .notes {
     font-size: 4vw; 
   }
+
+  .blogtext {
+    font-size: 4vw;
+  }
 }
 
 @media (max-width: 1920px) {
@@ -97,6 +101,10 @@ div p {
   
   .frontpagelinks {
     font-size: 6vw;
+  }
+
+  .blogtext {
+    font-size: 2vw;
   }
 }
 
@@ -129,5 +137,11 @@ div p {
   font: "Helvetica", serif;
   text-decoration: underline;
   font-style: italic;
+  text-align: center;
+}
+
+.blogtext {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
   text-align: center;
 }
