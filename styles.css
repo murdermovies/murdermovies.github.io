@@ -36,7 +36,7 @@ div p {
 .header {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(4rem, 7vw, 12rem);
+  font-size: 24px
   text-decoration: none;
   text-align: center;
 }
@@ -44,21 +44,41 @@ div p {
 .text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .text {
+    font-size: 8vw; 
+  }
+
+  .header {
     font-size: 10vw; 
+  }
+
+  .frontpagelinks {
+    font-size: 10vw; 
+  }
+
+  .italic {
+    font-size: 6vw; 
+  }
+
+  .italic {
+    font-size: 4vw; 
+  }
+
+  .notes {
+    font-size: 4vw; 
   }
 }
 
 .frontpagelinks {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(2rem, 6vw, 8rem);
+  font-size: 24px;
   text-decoration: none;
   text-align: center;
 }
@@ -67,7 +87,7 @@ div p {
 .italic {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(1rem, 4vw, 6rem);
+  font-size: 18px
   text-decoration: none;
   font-style: italic;
   text-align: center;
@@ -76,7 +96,7 @@ div p {
 .note {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(0.5rem, 2vw, 4rem);
+  font-size: 12px
   text-decoration: none;
   font-style: italic;
   text-align: center;
@@ -85,7 +105,7 @@ div p {
 .linksmall {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(0.5rem, 2vw, 4rem);
+  font-size: 12px;
   text-decoration: underline;
   font-style: italic;
   text-align: center;
