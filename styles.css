@@ -40,13 +40,14 @@ div p {
 .links {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(2rem, 8vw, 10rem);
+  font-size: clamp(2rem, 6vw, 8rem);
   text-decoration: none;
 }
 
 .blogtext {
   color: rgb(255, 0, 0);
-  font: 1.5rem "Helvetica", serif;
+  font: "Helvetica", serif;
+  font-size: clamp(1rem, 5vw, 7rem);
   text-decoration: none;
 }
 
@@ -60,7 +61,8 @@ div p {
 .italic {
   
   color: rgb(255, 0, 0);
-  font: 1rem/1.5 "Helvetica", serif;
+  font: "Helvetica", serif;
+  font-size: clamp(1rem, 5vw, 7rem);
   font-style: italic;
   text-decoration: none;
 }
@@ -68,7 +70,8 @@ div p {
 .note {
   
   color: rgb(255, 0, 0);
-  font: .75rem/1.5 "Helvetica", serif;
+  font: "Helvetica", serif;
+  font-size: clamp(1rem, 5vw, 7rem);
   font-style: italic;
   text-decoration: none;
 }
@@ -76,7 +79,8 @@ div p {
 .header {
   text-align: center;
   color: rgb(255, 0, 0);
-  font: 3rem "Times New Roman", serif;
+  font: "Times New Roman", serif;
+  font-size: clamp(3ren, 8vw, 12rem);
   text-decoration: none;
    margin: 1rem;
 }
