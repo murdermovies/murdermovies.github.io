@@ -36,7 +36,6 @@ div p {
 .header {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 100px
   text-decoration: none;
   text-align: center;
 }
@@ -55,7 +54,7 @@ div p {
   }
 
   .header {
-    font-size: 12vw; 
+    font-size: 100vw; 
   }
 
   .frontpagelinks {
@@ -75,10 +74,35 @@ div p {
   }
 }
 
+@media (max-width: 1920px) {
+  .text {
+    font-size: 3vw; 
+  }
+
+  .header {
+    font-size: 8vw; 
+  }
+
+  .frontpagelinks {
+    font-size: 10vw; 
+  }
+
+  .italic {
+    font-size: 2vw; 
+  }
+
+  .notes {
+    font-size: 2vw; 
+  }
+  
+  .frontpagelinks {
+    font-size: 6vw;
+  }
+}
+
 .frontpagelinks {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 40px;
   text-decoration: none;
   text-align: center;
 }
@@ -87,7 +111,6 @@ div p {
 .italic {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 18px
   text-decoration: none;
   font-style: italic;
   text-align: center;
@@ -96,7 +119,6 @@ div p {
 .note {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 12px
   text-decoration: none;
   font-style: italic;
   text-align: center;
@@ -105,7 +127,6 @@ div p {
 .linksmall {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 12px;
   text-decoration: underline;
   font-style: italic;
   text-align: center;
