@@ -43,11 +43,10 @@ div p {
 .text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: 20px;
   text-decoration: none;
   text-align: center;
 }
-/*
+
 @media (max-width: 768px) {
   .text {
     font-size: 10vw; 
