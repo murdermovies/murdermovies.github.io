@@ -4,11 +4,6 @@
   /*height: 4rem;           /* Optional: specific container height */
 }
 
-
-.text {
-  text-align: center;
-}
-
 div p {
   margin: 0;
   padding: 0;
@@ -18,7 +13,8 @@ div p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem; /* Space between columns */
+    gap: 2rem; /* Space between columns */
+    text-align: center;
   }
 
 .left-col {
@@ -30,57 +26,58 @@ div p {
     flex: 1;
     text-align: left; /* Pushes text to the left */
   }
-
+  
 .logo {
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   display: block; /* Removes unwanted space below the image */
 }
-/*
-.links {
+
+@media only screen and (max-width: 767px) {
+    logo {
+        width:100%;
+    }
+}
+
+.header {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  font-size: clamp(4rem, 7vw, 12rem);
+  text-decoration: none;
+  text-align: center;
+}
+
+.text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   font-size: clamp(2rem, 6vw, 8rem);
   text-decoration: none;
+  text-align: center;
 }
 
-.blogtext {
+.italic {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(1rem, 5vw, 7rem);
+  font-size: clamp(1rem, 4vw, 6rem);
   text-decoration: none;
+  font-style: italic;
+  text-align: center;
+}
+
+.note {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  font-size: clamp(0.5rem, 2vw, 4rem);
+  text-decoration: none;
+  font-style: italic;
+  text-align: center;
 }
 
 .linksmall {
   color: rgb(255, 0, 0);
-  font: 1rem "Helvetica", serif;
-  font-style: italic;
-
-}
-
-.italic {  
-  color: rgb(255, 0, 0);
   font: "Helvetica", serif;
-  font-size: clamp(1rem, 5vw, 7rem);
+  font-size: clamp(0.5rem, 2vw, 4rem);
+  text-decoration: underline;
   font-style: italic;
-  text-decoration: none;
-}
-
-.note {
-  
-  color: rgb(255, 0, 0);
-  font: "Helvetica", serif;
-  font-size: clamp(1rem, 5vw, 7rem);
-  font-style: italic;
-  text-decoration: none;
-}
-
-.header {
   text-align: center;
-  color: rgb(255, 0, 0);
-  font: "Times New Roman", serif;
-  font-size: clamp(3rem, 8vw, 12rem);
-  text-decoration: none;
-  margin: 1rem;
 }
-*/
