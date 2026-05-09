@@ -50,7 +50,7 @@ div p {
 
 @media (max-width: 768px) {
   .text {
-    font-size: 8vw; 
+    font-size: 10vw; 
   }
 
   .header {
@@ -63,10 +63,6 @@ div p {
 
   .italic {
     font-size: 6vw; 
-  }
-
-  .italic {
-    font-size: 4vw; 
   }
 
   .notes {
