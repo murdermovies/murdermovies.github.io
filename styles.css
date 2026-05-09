@@ -1,7 +1,7 @@
 .logocontainer {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  /*height: 4rem;           /* Optional: specific container height */
+
 }
 
 div p {
@@ -13,18 +13,18 @@ div p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem; /* Space between columns */
+    gap: 1rem; /* Space between columns */
     text-align: center;
   }
 
 .left-col {
     flex: 1;
-    text-align: right; /* Pushes text to the right */
+    text-align: right; 
   }
 
   .right-col {
     flex: 1;
-    text-align: left; /* Pushes text to the left */
+    text-align: left; 
   }
   
 .logo {
@@ -47,65 +47,8 @@ div p {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .text {
-    font-size: 10vw; 
-  }
-
-  .header {
-    font-size: 10vw; 
-  }
-
-  .frontpagelinks {
-    font-size: 8vw; 
-  }
-
-  .italic {
-    font-size: 6vw; 
-  }
-
-  .notes {
-    font-size: 4vw; 
-  }
-
-  .blogtext {
-    font-size: 4vw;
-  }
-}
-*/
-@media (max-width: 1920px) {
-  .text {
-    font-size: 3vw; 
-  }
-
-  .header {
-    font-size: 8vw; 
-  }
-
-  .frontpagelinks {
-    font-size: 10vw; 
-  }
-
-  .italic {
-    font-size: 2vw; 
-  }
-
-  .notes {
-    font-size: 2vw; 
-  }
-  
-  .frontpagelinks {
-    font-size: 6vw;
-  }
-
-  .blogtext {
-    font-size: 2vw;
-  }
-}
-
 .frontpagelinks {
   color: rgb(255, 0, 0);
-  font: "Helvetica", serif;
   text-decoration: none;
   text-align: center;
 }
@@ -133,10 +76,68 @@ div p {
   text-decoration: underline;
   font-style: italic;
   text-align: center;
+  align-content: center;
 }
 
 .blogtext {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   text-align: center;
+}
+
+
+@media (min-width: 10px) {
+  .text {
+    font-size: 10000px; 
+  }
+
+  .header {
+    font-size: 10vw; 
+  }
+
+  .frontpagelinks {
+    font-size: 10vw; 
+  }
+
+  .italic {
+    font-size: 6vw; 
+  }
+
+  .notes {
+    font-size: 1vw; 
+  }
+
+  .blogtext {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .text {
+    font-size: 3vw; 
+  }
+
+  .header {
+    font-size: 8vw; 
+  }
+
+  .frontpagelinks {
+    font-size: 1rem;
+  }
+
+  .italic {
+    font-size: 2vw; 
+  }
+
+  .notes {
+    font-size: 1.5vw; 
+  }
+  
+  .frontpagelinks {
+    font-size: 6vw;
+  }
+
+  .blogtext {
+    font-size: 2vw;
+  }
 }
