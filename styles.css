@@ -115,8 +115,12 @@ tr {
   text-decoration: underline;
   font-style: italic;
   text-align: center;
-  align-content: center;
   font-size: clamp(1.25rem, 4vw, 1.5rem);   
+}
+
+.backtotopcontainer {
+    display: flex;
+    justify-content: center;
 }
 
 .blogtext {
@@ -125,4 +129,55 @@ tr {
   text-align: center;
   width: clamp(45ch, 60%, 75ch);
   font-size: clamp(1rem, 4vw, 1.5rem); 
+}
+
+/* contact */
+
+.contactcontainer {
+  height: 100vh;
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.contactleft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.contactinputs {
+  width: clamp(20rem, 60vw, 40rem);
+  height: 2rem;
+  border: 2px solid red;
+  outline: none;
+  text-align: center;
+}
+
+.contactleft textarea {
+  height: 10rem;
+}
+
+
+.contactinputs::placeholder {
+  color: rgb(255, 0, 0);
+  opacity: 1;
+  font: "Helvetica", serif;
+  width: clamp(45ch, 60%, 75ch);
+  font-size: clamp(0.5rem, 4vw, 1rem); 
+}
+
+.contactleft button {
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  font: "Helvetica", serif;
+  font-size: clamp(0.5rem, 4vw, 1rem); 
+  padding: 15px 30px;
+  color:white;
+  background-color: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
