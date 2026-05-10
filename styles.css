@@ -1,7 +1,7 @@
 .logocontainer {
   display: flex;
   justify-content: center; /* Centers horizontally */
-
+  margin-bottom: 0px;
 }
 
 div p {
@@ -17,6 +17,19 @@ div p {
     text-align: center;
   }
 
+table, td, th {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td {
+  padding: 15px;
+}
+
+tr {
+  padding: 0px;
+}
+
 .blogcontainer {
     display: flex;
     justify-content: center;
@@ -28,7 +41,7 @@ div p {
 
 .left-col {
     flex: 1;
-    text-align: right; 
+    text-align: left; 
   }
 
   .right-col {
@@ -37,9 +50,18 @@ div p {
   }
   
 .logo {
-  width: 100vw;
+  width: clamp(350px, 80%, 800px);
+  align-items: center;
   height: auto;
   display: block; /* Removes unwanted space below the image */
+}
+
+.frontpageart  {
+  width: clamp(300px, 80%, 500px);
+  align-items: center;
+  height: auto;
+  display: block; /* Removes unwanted space below the image */
+  margin: 3rem;
 }
 
 .header {
@@ -47,6 +69,7 @@ div p {
   font: "Helvetica", serif;
   text-decoration: none;
   text-align: center;
+  font-size: clamp(2.5rem, 8vw, 3.5rem); 
 }
 
 .text {
@@ -54,12 +77,17 @@ div p {
   font: "Helvetica", serif;
   text-decoration: none;
   text-align: center;
+  font-size: clamp(1.5rem, 4vw, 2rem); 
 }
 
 .frontpagelinks {
   color: rgb(255, 0, 0);
   text-decoration: none;
   text-align: center;
+  font-size: clamp(3rem, 6vw, 4rem); 
+  padding: 0px;
+  line-height: 0%;
+  margin: 0px;
 }
 
 
@@ -69,14 +97,16 @@ div p {
   text-decoration: none;
   font-style: italic;
   text-align: center;
+  font-size: clamp(1rem, 4vw, 2rem);  
 }
 
-.note {
+.notes {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   text-decoration: none;
   font-style: italic;
   text-align: center;
+  font-size: clamp(1rem, 4vw, 1.5rem);   
 }
 
 .linksmall {
@@ -86,64 +116,13 @@ div p {
   font-style: italic;
   text-align: center;
   align-content: center;
+  font-size: clamp(1.25rem, 4vw, 1.5rem);   
 }
 
 .blogtext {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   text-align: center;
-}
-
-  .text {
-    font-size: 1.5rem; 
-  }
-
-  .header {
-    font-size: 3rem; 
-  }
-
-  .frontpagelinks {
-    font-size: 3.5rem; 
-  }
-
-  .italic {
-    font-size: 1rem; 
-  }
-
-  .notes {
-    font-size: 1rem; 
-  }
-
-  .blogtext {
-    font-size: 1rem;
-    
-  }
-
-@media (max-width: 1000) {
-  .logo {
-    width: 150vw;
-  }
-  .text {
-    font-size: 2rem; 
-  }
-
-  .header {
-    font-size: 4rem; 
-  }
-
-  .frontpagelinks {
-    font-size: 3rem; 
-  }
-
-  .italic {
-    font-size: 2rem; 
-  }
-
-  .notes {
-    font-size: 2rem; 
-  }
-
-  .blogtext {
-    font-size: 3rem;
-  }
+  width: clamp(45ch, 60%, 75ch);
+  font-size: clamp(1rem, 4vw, 1.5rem); 
 }
