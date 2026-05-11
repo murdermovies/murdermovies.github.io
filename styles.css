@@ -131,6 +131,28 @@ tr {
   font-size: clamp(1rem, 4vw, 1.5rem); 
 }
 
+.lyricscontainer {
+  width: clamp(45ch, 60%, 75ch);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.lyrics {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  font-size: clamp(1rem, 4vw, 1.5rem); 
+}
+
+.lyricheader {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 2rem); 
+  padding: 10px;
+}
+
 /* contact */
 
 .contactcontainer {
