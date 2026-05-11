@@ -153,6 +153,17 @@ tr {
   padding: 10px;
 }
 
+.lyricsgraphic {
+  float: left;
+  width: 30%;
+}
+
+@media (max-width:768px) {
+  .lyricsgraphic {
+    display:none;
+  }
+}
+
 /* contact */
 
 .contactcontainer {
