@@ -97,7 +97,6 @@ tr {
   text-align: center;
   font-size: clamp(1.5rem, 4vw, 2rem); 
   position: relative;
-  padding: 20px;
 }
 
 .frontpagelinks {
