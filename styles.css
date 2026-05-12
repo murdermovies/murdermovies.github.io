@@ -237,5 +237,15 @@ tr {
   float: left;
   width: 20%;
   height: auto;
+}
 
+.filmphoto {
+  width: 50%;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .junephoto  {
+    display:none;
+  }
 }
