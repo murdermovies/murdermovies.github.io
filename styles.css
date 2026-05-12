@@ -271,7 +271,7 @@ tr {
 }
 
 @media (max-width:600px) {
-  .junephoto  {
+  .junephoto, .lespaulphoto  {
     display:none;
   }
 }
