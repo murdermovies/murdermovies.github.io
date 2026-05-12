@@ -239,8 +239,8 @@ tr {
   width: 15%;
   height: auto;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20%;
+  left: 10%;
   z-index: -1; /* Puts image behind text */
 }
 
@@ -250,7 +250,7 @@ tr {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:600px) {
   .junephoto  {
     display:none;
   }
