@@ -239,6 +239,9 @@ tr {
   width: 15%;
   height: auto;
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Puts image behind text */
 }
 
 .filmphoto {
