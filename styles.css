@@ -196,12 +196,6 @@ tr {
   position: absolute;
 }
 
-@media (max-width:768px) {
-  .lyricsgraphic {
-    display:none;
-  }
-}
-
 /* contact */
 
 .contactcontainer {
@@ -324,9 +318,19 @@ tr {
   height: auto;
   right: 0px;
   position: absolute;
-  top: 50%;
+  top: 100%;
   z-index: -1; /* Puts image behind text */
 }
+
+.averyphoto {
+  width:30%;
+  height: auto;
+  right: 0px;
+  position: absolute;
+  top: 400%;
+  z-index: -1; /* Puts image behind text */
+}
+
 
 .crimescenetags {
   width:100%;
@@ -346,7 +350,7 @@ tr {
 }
 
 @media (max-width:1200px) {
-  .lespaulphoto, .hangingmicphoto  {
+  .lespaulphoto, .hangingmicphoto, .madiphoto, .isabellaphoto, .lyricsgraphic, .averyphoto  {
     display:none;
   }
 }
