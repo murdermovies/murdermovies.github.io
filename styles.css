@@ -69,7 +69,7 @@ tr {
   text-decoration: none;
   text-align: center;
   font-size: clamp(2rem, 6vw, 3rem); 
-  padding: 20px;
+  padding: 30px;
 }
 
 .frontpageart  {
