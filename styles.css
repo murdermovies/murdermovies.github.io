@@ -230,3 +230,12 @@ tr {
   border: none;
   cursor: pointer;
 }
+
+/* photo classes */
+
+.junephoto {
+  float: left;
+  width: 20%;
+  height: auto;
+
+}
