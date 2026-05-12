@@ -20,6 +20,8 @@ div p {
 .linkscontainer {
   display: block;
   text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
 table, td, th {
