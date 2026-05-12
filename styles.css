@@ -69,8 +69,7 @@ tr {
   text-decoration: none;
   text-align: center;
   font-size: clamp(2rem, 6vw, 3rem); 
-  padding: 10%;
-  margin: 10px;
+  line-height: 200%;
   position: relative;
 }
 
@@ -87,7 +86,7 @@ tr {
   font: "Helvetica", serif;
   text-decoration: none;
   text-align: center;
-  font-size: clamp(2.5rem, 10vw, 4rem); 
+  font-size: clamp(2.5rem, 12vw, 5rem); 
   position: relative;
 }
 
@@ -98,6 +97,7 @@ tr {
   text-align: center;
   font-size: clamp(1.5rem, 4vw, 2rem); 
   position: relative;
+  padding: 20px;
 }
 
 .frontpagelinks {
@@ -132,14 +132,24 @@ tr {
   position: relative;  
 }
 
+.streamingnote {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  text-decoration: none;
+  font-style: italic;
+  text-align: center;
+  font-size: clamp(1rem, 4vw, 1.5rem); 
+  width: 30%;
+  margin: 30px auto;
+  position: relative;
+}
+
 .linksmall {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   text-decoration: underline;
   font-style: italic;
-  text-align: center;
   font-size: clamp(1.25rem, 4vw, 1.5rem);   
-  position: relative;
 }
 
 .backtotopcontainer {
@@ -235,9 +245,9 @@ tr {
   font: "Helvetica", serif;
   font-size: clamp(0.5rem, 4vw, 1rem); 
   padding: 15px 30px;
-  color:white;
-  background-color: red;
-  outline: none;
+  color:red;
+  background: white;
+  outline: 2px solid red;
   border: none;
   cursor: pointer;
 }
@@ -246,36 +256,93 @@ tr {
 
 .junephoto {
   float: left;
-  width: 100px;
-  height: auto;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  z-index: -1; /* Puts image behind text */
-}
-
-.lespaulphoto {
-  float: left;
   width: 30%;
   height: auto;
   position: absolute;
   top: 20%;
-  left: 10px;
+  left: 5%;
   z-index: -1; /* Puts image behind text */
 }
-.photocontainer {
-  display: block;
-  justify-content: center;
-  align-items: center;
+
+.jamesphoto {
+  float: right;
+  width: 23%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  z-index: -1; /* Puts image behind text */
 }
 
-.filmphoto {
-  width: 50%;
-
+.gunphoto {
+  float: left;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: -1; /* Puts image behind text */
+  transform: rotate(5deg);
 }
 
-@media (max-width:400px) {
-  .junephoto, .lespaulphoto  {
+.lespaulphoto {
+  float: left;
+  width: 25%;
+  height: auto;
+  position: absolute;
+  top: 12%;
+  left: 0.5%;
+  z-index: -1; /* Puts image behind text */
+}
+
+.hangingmicphoto {
+  float: left;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right:10%;
+  top: 0px;
+  z-index: -1; /* Puts image behind text */
+}
+
+
+.madiphoto {
+  width:50%;
+  height: auto;
+  left: 25px;
+  position: absolute;
+  top: 150px;
+  z-index: -1; /* Puts image behind text */
+}
+
+.isabellaphoto {
+  width:30%;
+  height: auto;
+  right: 0px;
+  position: absolute;
+  top: 50%;
+  z-index: -1; /* Puts image behind text */
+}
+
+.crimescenetags {
+  width:100%;
+  height:100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: -1; /* Puts image behind text */
+}
+
+
+@media (max-width:900px) {
+  .junephoto, .jamesphoto, .gunphoto {
+    display:none;
+  }
+}
+
+@media (max-width:1200px) {
+  .lespaulphoto, .hangingmicphoto  {
     display:none;
   }
 }
