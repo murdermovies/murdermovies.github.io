@@ -56,6 +56,14 @@ tr {
   display: block; /* Removes unwanted space below the image */
 }
 
+.links {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: clamp(2.5rem, 8vw, 3.5rem); 
+}
+
 .frontpageart  {
   width: clamp(300px, 80%, 500px);
   align-items: center;
