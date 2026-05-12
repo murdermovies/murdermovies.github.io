@@ -244,6 +244,16 @@ tr {
   z-index: -1; /* Puts image behind text */
 }
 
+.lespaulphoto {
+  float: left;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: -1; /* Puts image behind text */
+}
+
 .filmphoto {
   width: 50%;
   justify-content: center;
