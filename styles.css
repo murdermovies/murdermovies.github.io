@@ -173,6 +173,7 @@ tr {
 .lyricsgraphic {
   float: left;
   width: 30%;
+  position: absolute;
 }
 
 @media (max-width:768px) {
@@ -237,11 +238,13 @@ tr {
   float: left;
   width: 20%;
   height: auto;
+  position: absolute;
 }
 
 .filmphoto {
   width: 50%;
   align-items: center;
+
 }
 
 @media (max-width:768px) {
