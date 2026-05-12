@@ -246,7 +246,7 @@ tr {
 
 .junephoto {
   float: left;
-  width: 30%;
+  width: 100px;
   height: auto;
   position: absolute;
   top: 20%;
