@@ -256,11 +256,11 @@ tr {
 
 .lespaulphoto {
   float: left;
-  width: 15%;
+  width: 30%;
   height: auto;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 10px;
   z-index: -1; /* Puts image behind text */
 }
 
