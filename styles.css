@@ -263,11 +263,15 @@ tr {
   left: 10px;
   z-index: -1; /* Puts image behind text */
 }
+.photocontainer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
 
 .filmphoto {
   width: 50%;
-  justify-content: center;
-  align-items: center;
+
 }
 
 @media (max-width:400px) {
