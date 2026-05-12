@@ -17,6 +17,11 @@ div p {
     text-align: center;
   }
 
+.linkscontainer {
+  display: block;
+  text-align: center;
+}
+
 table, td, th {
   margin-right: auto;
   margin-left: auto;
