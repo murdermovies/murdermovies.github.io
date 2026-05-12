@@ -21,7 +21,6 @@ div p {
   display: block;
   text-align: center;
   align-items: center;
-  padding: 30px;
   justify-items: center;
 }
 
@@ -70,6 +69,7 @@ tr {
   text-decoration: none;
   text-align: center;
   font-size: clamp(2.5rem, 8vw, 3.5rem); 
+  padding: 20px;
 }
 
 .frontpageart  {
