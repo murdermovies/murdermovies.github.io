@@ -71,6 +71,7 @@ tr {
   font-size: clamp(2rem, 6vw, 3rem); 
   padding: 10%;
   margin: 10px;
+  position: relative;
 }
 
 .frontpageart  {
@@ -87,6 +88,7 @@ tr {
   text-decoration: none;
   text-align: center;
   font-size: clamp(2.5rem, 10vw, 4rem); 
+  position: relative;
 }
 
 .text {
@@ -95,6 +97,7 @@ tr {
   text-decoration: none;
   text-align: center;
   font-size: clamp(1.5rem, 4vw, 2rem); 
+  position: relative;
 }
 
 .frontpagelinks {
@@ -105,6 +108,7 @@ tr {
   padding: 0px;
   line-height: 0%;
   margin: 0px;
+  position: relative;
 }
 
 
@@ -115,6 +119,7 @@ tr {
   font-style: italic;
   text-align: center;
   font-size: clamp(1rem, 4vw, 2rem);  
+  position: relative;
 }
 
 .notes {
@@ -123,7 +128,8 @@ tr {
   text-decoration: none;
   font-style: italic;
   text-align: center;
-  font-size: clamp(1rem, 4vw, 1.5rem);   
+  font-size: clamp(1rem, 4vw, 1.5rem); 
+  position: relative;  
 }
 
 .linksmall {
@@ -133,6 +139,7 @@ tr {
   font-style: italic;
   text-align: center;
   font-size: clamp(1.25rem, 4vw, 1.5rem);   
+  position: relative;
 }
 
 .backtotopcontainer {
@@ -146,6 +153,7 @@ tr {
   text-align: center;
   width: clamp(45ch, 60%, 75ch);
   font-size: clamp(1rem, 4vw, 1.5rem); 
+  position: relative;
 }
 
 .lyricscontainer {
@@ -159,6 +167,7 @@ tr {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
   font-size: clamp(1rem, 4vw, 1.5rem); 
+  position: relative;
 }
 
 .lyricheader {
@@ -168,6 +177,7 @@ tr {
   text-align: center;
   font-size: clamp(1.5rem, 4vw, 2rem); 
   padding: 10px;
+  position: relative;
 }
 
 .lyricsgraphic {
