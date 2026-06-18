@@ -421,3 +421,8 @@ tr {
     bottom: clamp(5%, 5%, 15%);
   }
 }
+
+.tourphoto {
+  width: 50%;
+  height: auto;
+}
