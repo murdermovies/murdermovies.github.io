@@ -90,6 +90,15 @@ tr {
   position: relative;
 }
 
+.header2 {
+  color: rgb(255, 0, 0);
+  font: "Helvetica", serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: clamp(2rem, 10vw, 4rem); 
+  position: relative;
+}
+
 .text {
   color: rgb(255, 0, 0);
   font: "Helvetica", serif;
